@@ -8,5 +8,5 @@ image:
   pullPolicy: IfNotPresent
 
 service:
-  type: Nodeport
+  type: NodePort
   port: 80
