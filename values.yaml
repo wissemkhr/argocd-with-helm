@@ -1,0 +1,12 @@
+nameOverride: "nginx-depl"
+
+replicaCount: 1
+
+image:
+  repository: nginx
+  tag: alpine
+  pullPolicy: IfNotPresent
+
+service:
+  type: Nodeport
+  port: 80
