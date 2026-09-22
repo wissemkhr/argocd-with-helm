@@ -1,5 +1,5 @@
 apiVersion: v2
-name: nginx-app
+name: nginx-custom-chart
 description: Un Helm chart pour déployer et exposer Nginx
 type: application
 version: 0.1.0
